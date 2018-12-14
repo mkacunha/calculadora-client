@@ -24,7 +24,7 @@ export class AppComponent {
 
     this
     .http
-    .post('http://localhost:9090/api/calculos', calculo)
+    .post('https://mkacunha-calculadora-api.herokuapp.com/api/calculos', calculo)
     .subscribe(response => this.response = response);
   }
 }
